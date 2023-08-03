@@ -29,13 +29,30 @@ body {
   background-size: cover;
   cursor: pointer;
   position: relative;
-  transition: flex ease-in-out;
+  transition: flex ease-in-out 0.8s;
+}
+.panel-one {
+  background-image: url("./assets/img1.jpg");
+}
+.panel-two {
+  background-image: url("./assets/img2.jpg");
+}
+.panel-three {
+  background-image: url("./assets/img3.jpg");
+}
+.panel-four {
+  background-image: url("./assets/img4.jpeg");
+}
+.panel-five {
+  background-image: url("./assets/img5.jpeg");
 }
 .panel h3 {
   position: absolute;
   bottom: 50px;
   left: 50px;
   opacity: 0;
+
+  transition: opacity 0.3s ease-in-out 0.4s;
 }
 
 .panel.active {
