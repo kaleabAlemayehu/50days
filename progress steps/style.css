@@ -64,9 +64,11 @@ body {
   justify-content: center;
   align-items: center;
   color: var(--progress-bar);
+  transition: 0.3s ease-in-out;
 }
 .circle.active {
   border: 2px solid var(--progress-fill);
+  color: var(--progress-fill);
 }
 .btns {
   width: 100%;
@@ -89,4 +91,5 @@ body {
 .btn:disabled {
   background: var(--progress-bar);
   cursor: not-allowed;
+  transform: translateY(0%);
 }
