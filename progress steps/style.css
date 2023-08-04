@@ -82,7 +82,7 @@ body {
   color: #fff;
   padding: 10px 30px;
   cursor: pointer;
-  transition: position 0.3s ease-in;
+  transition: 0.3s ease-in;
 }
 
 .btn:active {
